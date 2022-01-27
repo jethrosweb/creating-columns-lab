@@ -47,48 +47,25 @@ img:hover {
 }
 
 .column {
-  display: block;
+  display: inline-block;
+  width: 30%;
 }
 
 .small {
-  width: 33%;
-  height: 33%;
-  float: left;
-  padding: 5px;
+  width: 100%;
+  height: 100%;
 }
 
 .med {
-  width: 66%;
-  height: 66%;
-  float: left;
-  padding: 5px;
-}
-
-.amiable .med {
-  float: right;
-  padding: 5px;
+  width: 202%;
+  height: 202%;
 }
 
 .large {
-  width: 100%;
-  height: 100%;
-  padding: 5px;
+  width: 303%;
+  height: 303%;
 }
 
-* {
-  -webkit-box-sizing: border-box;
-  -moz-border-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  height: 0;
-  line-height: 0;
-}
 /* create a column class! make sure all of the divs within 'container's have a class of 'column' */
 
 /* create your tile classes! we recommend .small .med .large */
